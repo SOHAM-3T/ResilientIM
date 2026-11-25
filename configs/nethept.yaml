@@ -1,0 +1,4 @@
+# Dataset adapter and benchmark are planned. Supply and preprocess the data separately.
+dataset: nethept
+source_path: data/raw/nethept.txt
+seed_budget: 50

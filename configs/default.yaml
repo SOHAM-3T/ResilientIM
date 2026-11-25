@@ -1,0 +1,15 @@
+# Common experiment defaults. Algorithms and experiment runners are added in later milestones.
+seed: 7
+seed_budget: 5
+welfare:
+  threshold: 0.5
+  eta: 0.05
+  weights: null  # null means equal weights once community count is known.
+confidence:
+  delta: 0.05
+sampling:
+  initial_rr_samples_per_community: 100
+  max_rr_samples_per_community: 10000
+  refinement_factor: 2.0
+validation:
+  monte_carlo_simulations: 1000

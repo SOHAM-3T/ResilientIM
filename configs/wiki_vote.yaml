@@ -1,0 +1,4 @@
+# Dataset adapter and benchmark are planned. Supply and preprocess the data separately.
+dataset: wiki_vote
+source_path: data/raw/wiki_vote.txt
+seed_budget: 50

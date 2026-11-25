@@ -1,0 +1,16 @@
+dataset: synthetic
+graph:
+  num_communities: 3
+  nodes_per_community: 20
+  within_community_probability: 0.12
+  cross_community_probability: 0.02
+  seed: 7
+seed_budget: 5
+welfare:
+  threshold: 0.5
+  eta: 0.05
+  weights: null
+sampling:
+  initial_rr_samples_per_community: 100
+  max_rr_samples_per_community: 10000
+  refinement_factor: 2.0

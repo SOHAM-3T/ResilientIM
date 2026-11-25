@@ -1,0 +1,4 @@
+# Dataset adapter and benchmark are planned. Supply and preprocess the data separately.
+dataset: epinions
+source_path: data/raw/epinions.txt
+seed_budget: 50

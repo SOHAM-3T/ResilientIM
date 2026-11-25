@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resilientim"
+version = "0.1.0"
+description = "Research framework for community-aware influence maximization under uncertainty"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "ResilientIM contributors" }]
+dependencies = ["networkx>=3.2,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "PyYAML>=6,<7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
